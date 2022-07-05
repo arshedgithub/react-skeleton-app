@@ -1,6 +1,7 @@
 /* basic styles */
 .skeleton {
-    background-color: #ddd;
+    background: #ddd;
+    overflow: hidden;
     margin: 10px 0;
     border-radius: 4px;
 }
@@ -30,4 +31,12 @@
 .skeleton-wrapper {
     margin: 20px auto;
     padding: 10px 15px;
+}
+
+/* skeleton profile */
+.skeleton-profile {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    align-items: center;
 }

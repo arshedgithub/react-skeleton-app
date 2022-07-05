@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import SkeletonArticle from "./SkeletonArticles";
+import SkeletonArticle from "../skeletons/SkeletonArticles";
 
 const Articles = () => {
   const [articles, setArticles] = useState(null);
